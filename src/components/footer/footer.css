@@ -1,0 +1,13 @@
+.footer__socials{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap:0.8rem;
+    position: absolute;
+    bottom: 3rem;
+}
+
+.margins{
+    
+    margin-right: 2rem;
+}
