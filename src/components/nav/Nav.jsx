@@ -5,11 +5,11 @@ import { useState } from 'react'
 
 export default function Nav() {
 
-  const [activeNav, setActiveNav]=useState('#')
+  const [activeNav, setActiveNav]=useState('#header')
   return (
 
   <nav>
-    <a href='#' onClick={()=>setActiveNav('#')} className={activeNav==='#'? 'active': ''}>Home</a>
+    <a href='#' onClick={()=>setActiveNav('#header')} className={activeNav==='#header'? 'active': ''}>Home</a>
     <a href='#education' onClick={()=>setActiveNav('#education')} className={activeNav==='#education'? 'active': ''}>Education</a>
     <a href='#skills' onClick={()=>setActiveNav('#skills')} className={activeNav==='#skills'? 'active': ''}>Skills</a>
     <a href='#projects' onClick={()=>setActiveNav('#projects')} className={activeNav==='#projects'? 'active': ''}>Projects</a>

@@ -1,11 +1,115 @@
 import React from 'react'
-import {AiFillHtml5} from 'react-icons/ai'
-import {FaCss3Alt} from 'react-icons/fa'
+
 import './skills.css'
+import { AiOutlineArrowRight } from 'react-icons/ai'
 
 export default function Skills() {
   return (
-    <section id='skills'>Skills</section>
+    <section id='skills'>
+    <br></br>
+      <h2>MY SKILLS</h2>
+
+      <div className='container skills_container'>
+        <div className='skills_frontend'>
+        <div className='skills_content'>
+          <article className='skills_details'>
+          <AiOutlineArrowRight className='skills_details-icons'/> 
+          <div>
+            <h4>HTML & CSS</h4>
+            <small className='text-light'>Good enough</small>
+          </div>
+          </article>
+
+          <article className='skills_details'>
+          <AiOutlineArrowRight className='skills_details-icons'/>
+          <div>
+            <h4>Bootstrap</h4>
+            <small className='text-light'>Good enough</small>
+          </div>
+          </article>
+
+          <article className='skills_details'>
+          <AiOutlineArrowRight className='skills_details-icons'/>
+          <div>
+            <h4>React</h4>
+            <small className='text-light'>Good</small>
+          </div>
+          </article>
+
+          <article className='skills_details'>
+          <AiOutlineArrowRight className='skills_details-icons'/>
+          <div>
+            <h4>NodeJS</h4>
+            <small className='text-light'>Basic</small>
+          </div>
+          </article>
+
+          <article className='skills_details'>
+          <AiOutlineArrowRight className='skills_details-icons'/>
+          <div>
+            <h4>ExpressJS</h4>
+            <small className='text-light'>Basic</small>
+          </div>
+          </article>
+
+          <article className='skills_details'>
+          <AiOutlineArrowRight className='skills_details-icons'/>
+          <div>
+            <h4>MongoDB</h4>
+            <small className='text-light'>Basic</small>
+          </div>
+          </article>
+        </div>
+        </div>
+
+        <div className='skills_backend'>
+        <div className='skills_content'>
+          <article className='skills_details'>
+          <AiOutlineArrowRight className='skills_details-icons'/>
+          <div>
+            <h4>C/C++</h4>
+            <small className='text-light'>Experienced</small>
+          </div>
+          </article>
+
+          <article className='skills_details'>
+          <AiOutlineArrowRight className='skills_details-icons'/>
+          <div>
+            <h4>Operating System</h4>
+            <small className='text-light'>Basic</small>
+          </div>
+          </article>
+
+          <article className='skills_details'>
+          <AiOutlineArrowRight className='skills_details-icons'/>
+          <div>
+            <h4>Data Structures & Algorithms</h4>
+            <small className='text-light'>Intermediate</small>
+          </div>
+          </article>
+
+          <article className='skills_details'>
+          <AiOutlineArrowRight className='skills_details-icons'/>
+          <div>
+            <h4>DataBase Management System</h4>
+            <small className='text-light'>Basic</small>
+          </div>
+          </article>
+
+          <article className='skills_details'>
+          <AiOutlineArrowRight className='skills_details-icons'/>
+          <div>
+            <h4>Computer Networks</h4>
+            <small className='text-light'>Basic</small>
+          </div>
+          </article>
+
+          
+
+        </div>
+        </div>
+      </div>
+    </section>
         
   )
 }

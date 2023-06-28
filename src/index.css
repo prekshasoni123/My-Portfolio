@@ -15,16 +15,16 @@
 
  :root{
     --color-bg: black;
-    --color-bg-variant: gray;
+    --color-bg-variant: #2c2c6c;
     --color-primary: skyblue;
-    --color-primary-variant: darkgreen;
+    --color-primary-variant: indigo;
     --color-white: white;
     --color-light: rgba(235, 222, 222, 0.838);
 
     --transition: all 400ms ease;
     --container-width-lg:75%;
     --container-width-md:86%;
-    --container-width-ms:90%;
+    --container-width-sm:90%;
 
  }
 
@@ -50,11 +50,16 @@
  }
 
  h1,
- h2,
  h3,
  h4,
  h5{
     font-weight: 500;
+ }
+
+ h2{
+   font-weight: bolder;
+   font-size: x-large;
+   font-family: cursive;
  }
 
  h1{
@@ -63,7 +68,7 @@
 
  section{
     margin-top: 8rem;
-    height:100vh;
+    /* height:100vh; */
  }
 
  section>h2, section>h5{
