@@ -37,7 +37,7 @@
  }
 
  body{
-    font-family: "Roboto", sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
@@ -59,7 +59,7 @@
  h2{
    font-weight: bolder;
    font-size: x-large;
-   font-family: cursive;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
 
  h1{

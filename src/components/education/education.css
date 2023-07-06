@@ -6,7 +6,7 @@
 
 .edu{
   text-align: center;
-  font-family: cursive;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background:  rgb(67, 13, 119);
   border-radius: 2rem 2rem 2rem 2rem;
   border: 1px solid var(--color-bg-variant);
@@ -15,7 +15,7 @@
 }
 
 .edu:hover{
-  background: var(--color-bg-variant);
+  background: transparent;
   border-color: var(--color-bg-variant);
   cursor: default;
   transform: scale(1.05);

@@ -7,7 +7,7 @@ export default function Skills() {
   return (
     <section id='skills'>
     <br></br>
-      <h2>MY SKILLS</h2>
+      <h2>SKILLS</h2>
 
       <div className='container skills_container'>
         <div className='skills_frontend'>
