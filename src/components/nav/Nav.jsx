@@ -20,33 +20,3 @@ export default function Nav() {
   )
 }
 
-//     < className='header_wrapper'>
-//     <nav className="navbar navbar-expand-lg fixed-top">
-//   <div className="container">
-//     <a className="navbar-brand fs-4 fst-italic" href="#">Preksha Soni</a>
-//     <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-//       {/* <span className="navbar-toggler-icon"></span> */}
-//       <i className="fa-solid fa-bars-staggered navbar-toggler-icon"></i>
-//     </button>
-//     <div className="navbar-collapse collapse justify-content-end" id="navbarNav">
-//       <ul className="navbar-nav">
-//         <li className="nav-item">
-//           <a className="nav-link active" aria-current="page" href="#header">Home</a>
-//         </li>
-//         <li className="nav-item">
-//           <a className="nav-link" href="#education">Education</a>
-//         </li>
-//         <li className="nav-item">
-//           <a className="nav-link" href="#skills">Skills</a>
-//         </li>
-//         <li className="nav-item">
-//           <a className="nav-link" href="#my projects">My projects</a>
-//         </li>
-//         <li className="nav-item">
-//           <a className="nav-link" href="#contact">Contact me</a>
-//         </li>
-//       </ul>
-//     </div>
-//   </div>
-// </nav>
-

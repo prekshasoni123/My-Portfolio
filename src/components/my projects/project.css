@@ -1,0 +1,44 @@
+.project_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:4rem;
+    
+}
+
+.project{
+    background-color: var(--color-bg-variant);
+  text-align: center;
+  padding: 2rem;
+  user-select: none;
+  transition: var(--transition);
+  border-radius: 3rem 0 3rem 0;
+}
+
+.project:hover{
+    
+    border-color: var(--color-bg-variant);
+    cursor: default;
+    transform: scale(1.05);
+  }
+
+.project_name{
+    margin-top: 1rem;
+  font-weight:bold;
+  font-size: large;
+}
+
+.project_details{
+    color: var(--color-light);
+  font-weight: 300;
+  display: block;
+  width: 80%;
+   margin: 0.8rem auto 0; 
+  font-weight: 500;
+}
+
+.project_button{
+    margin-top: 2.5rem;
+    display: flex;
+    gap:2rem;
+    justify-content: center;
+}

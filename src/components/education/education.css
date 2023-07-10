@@ -1,10 +1,14 @@
 .container.educations_container{
-  width:50%;
-
+  margin-left: 1.5rem;
+  
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:2.5rem;
+  
 }
 
 .edu_avatar{
-  width:30rem;
+  width:20rem;
   /* aspect-ratio: 1/1; */
   overflow: hidden;
   margin: 0 auto 0;
@@ -16,14 +20,15 @@
   text-align: center;
   padding: 2rem;
   user-select: none;
-  /* display: grid;
-  grid-template-columns: 1fr 1fr; */
+  transition: var(--transition);
+  
 
 }
 
 .inst_name{
   margin-top: 2rem;
-  font-weight: bold;
+  font-weight:bold;
+  font-size: medium;
 }
 .inst_details{
 
@@ -32,13 +37,25 @@
   display: block;
   width: 80%;
    margin: 0.8rem auto 0; 
-  font-weight: 700;
+  font-weight: 500;
   font-style: italic;
 }
 
+.education:hover{
+  background: transparent;
+  border-color: var(--color-bg-variant);
+  cursor: default;
+  transform: scale(1.05);
+}
+
+
+
 @media screen and (max-width: 1024px){
  .container.educations_container{
-  width:70%;
+  width:50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
  }
  .edu_avatar{
   width:100%;
@@ -48,6 +65,10 @@
 @media screen and (max-width:600px){
   .container.educations_container{
     width: var(--container-width-sm);
+    margin-left: 3rem;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:4rem; */
   }
 
   .inst_details{
@@ -65,30 +86,8 @@
 
 
 
-/* .edu_container{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap: 3rem;
-}
 
-.edu{
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background:  rgb(67, 13, 119);
-  border-radius: 2rem 2rem 2rem 2rem;
-  border: 1px solid var(--color-bg-variant);
-  height:fit-content;
-  transition: var(--transition);
-}
-
-.edu:hover{
-  background: transparent;
-  border-color: var(--color-bg-variant);
-  cursor: default;
-  transform: scale(1.05);
-}
-
-@media screen and (max-width: 1024px){
+/* @media screen and (max-width: 1024px){
   .edu_container{
     grid-template-columns: 1fr 1fr;
     gap:2rem;
@@ -103,7 +102,7 @@
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-} */
+}  */
 
 
 

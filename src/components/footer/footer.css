@@ -19,7 +19,7 @@ footer a{
 }
 
 .footer_socials a{
-    background: darkblue;
+    background: var(--color-bg-variant);
     color: var(--color-white);
     padding: 0.8rem;
     border-radius: 0.7rem;

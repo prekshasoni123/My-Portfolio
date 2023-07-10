@@ -27,12 +27,13 @@ nav a{
 nav a:hover{
     color: skyblue;
     background: transparent;
+    
 
 }
 
 nav a.active{
     background: transparent;
-    color: yellow;
+    
 }
 
 @media screen and (max-width: 1024px){

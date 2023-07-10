@@ -23,6 +23,7 @@ export default function Contact() {
   };
   return (
     <section id='contact'>
+    <br/>
     <h5>Let's Talk</h5>
     <h2>CONTACT ME</h2>
 

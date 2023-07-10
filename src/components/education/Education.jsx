@@ -5,15 +5,6 @@ import AVTR1 from '../../required/svnit surat.jpg'
 import AVTR2 from '../../required/vvm.jpg'
 import Nav from '../nav/Nav'
 
-// import Swiper core and required modules
-import { Pagination } from 'swiper';
-
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
 
 
 const data=[
@@ -51,16 +42,17 @@ export default function Education() {
     
 
     <section id='education'>
+    <br/>
       <h5>My Educational Qualification</h5>
       <h2>EDUCATION</h2>
 
 
-      <Swiper className='container educations_container'>
+      <div className='container educations_container'>
       
         {
           data.map(({avatar,name,review1,review2,review3,review4},index)=>{
             return(
-              <SwiperSlide key={index} className='education'>
+              <article key={index} className='education'>
                 <div className='edu_avatar'>
                   <img src={avatar}/>
                 </div>
@@ -76,75 +68,15 @@ export default function Education() {
                   <br/>
                   <p>{review4}</p>
                 </div>
-              </SwiperSlide>
+              </article>
             )
           })
         }
         
-      </Swiper>
+      </div>
       
     </section>
   )
 }
-
-
-// export default function Education() {
-//   return (
-//     <section id='education'>
-//     <br></br>
-//       <h2>EDUCATION</h2>
-
-//       <div className='container edu_container'>
-//         <article className='edu'>
-//         <br></br>
-//           <h3>Sardar Vallabhbhai National Institute of Technology, Surat</h3>
-//           <br></br>
-//           <br></br>
-//           <p>Bachelors of Technology</p>
-//           <p>in</p>
-//           <p>"Electronics and Communication Engineering"</p>
-//           <br></br>
-//           <p>2020-2024</p>
-//           <br></br>
-//           <p>"CGPA: 8.57"</p>
-//           <br></br>
-//         </article>
-
-//         <article className='edu'>
-//         <br></br>
-//           <h3>Smt. M M Mehta English Medium School, Palanpur</h3>
-//           <br></br>
-//           <br></br>
-//           <p>Higher Secondary Education</p>
-//           <br></br>
-//           <p>GSHEB</p>
-//           <br></br>
-//           <p>2018-2020</p>
-//           <br></br>
-//           <p>Percentage: 79%</p>
-//           <br></br>
-//           <br></br>
-//         </article>
-
-//         <article className='edu'>
-//         <br></br>
-//           <h3>Angels English Medium School, Deesa</h3>
-//           <br></br>
-//           <br></br>
-//           <p>Primary and Secondary Education</p>
-//           <br></br>
-//           <p>GSEB</p>
-//           <br></br>
-//           <p>2018</p>
-//           <br></br>
-//           <p>Percentage: 93%</p>
-//           <br></br>
-//           <br></br>
-//         </article>
-//       </div>
-//     </section>
-    
-//   )
-// }
 
 
