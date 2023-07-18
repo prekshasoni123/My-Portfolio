@@ -42,3 +42,27 @@
     gap:2rem;
     justify-content: center;
 }
+
+@media screen and (max-width: 1024px){
+  .container.project_container{
+   width:50%;
+   display: grid;
+   grid-template-columns: 1fr;
+  }
+   .project{
+    margin-right: 2.5rem;
+   }
+ }
+ 
+ @media screen and (max-width:600px){
+   .container.project_container{
+     width: var(--container-width-sm);
+     margin-left: 3rem;
+     /* display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap:4rem; */
+   }
+ 
+   
+ }
+ 

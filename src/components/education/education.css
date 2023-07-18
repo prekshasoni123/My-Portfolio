@@ -52,11 +52,24 @@
 
 @media screen and (max-width: 1024px){
  .container.educations_container{
-  width:50%;
+  
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  align-content: center;
+  align-items: center;
+
+  grid-template-columns: 1fr; 
+
+  
+  
+  /* gap: 2rem; */
  }
+
+ .education{
+  width: 65%;
+  margin-left: 10%;
+ }
+ 
+ 
  .edu_avatar{
   width:100%;
  }
@@ -65,12 +78,14 @@
 @media screen and (max-width:600px){
   .container.educations_container{
     width: var(--container-width-sm);
-    margin-left: 3rem;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap:4rem; */
-  }
+     margin-left: 3rem; }
 
+     /* .education{
+      display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:2rem; 
+     } */
+    
   .inst_details{
   width: var(--container-width-sm);
   }

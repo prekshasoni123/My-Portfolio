@@ -5,6 +5,7 @@ export default function Projects() {
   return (
     <section id='projects'>
       <br/>
+      <h5>My recent projects</h5>
       <h2>Projects</h2>
 
 
@@ -19,7 +20,7 @@ export default function Projects() {
                 
                 <p>A basic beginner friendly React based mini-project.</p>
                 <br/>
-                <p> which allows to make list of important things to do using functions & properties of React.
+                <p> Allows to make list of important things to do using functions & properties of React.
                 </p>
                   
                   <br/>

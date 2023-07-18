@@ -12,18 +12,24 @@ const items=[
   {
     id:2,
     title:"C/C++",
-    answer:"I have good coding skills in C++ and I have been practicing coding on many of the coding platforms."
+    answer:"I have good coding skills in C++ and I am practicing Data Structures and Algorithms on many of the coding platforms and further working to master in its concepts."
   },
   {
     id:3,
     title:"Bootstrap",
-    answer:"I have worked with bootstrap in my project and I'm intermediate level bootstrap user."
+    answer:"I have worked with bootstrap in one of my projects and I'm intermediate level bootstrap user."
   },
+
+  // {
+  //   id:4,
+  //   title:"Data Structures & Algorithms",
+  //   answer:"I have sufficient knowledge of Data Structures and Algorithms and have been practicing it for a while now and further working to master in it."
+  // },
 
   {
     id:4,
-    title:"Data Structures & Algorithms",
-    answer:"I have sufficient knowledge of Data Structures and Algorithms and have been practicing it for a while now and further working to master in it."
+    title:"Object Oriented Programming",
+    answer:"I have studied basic concept of OOPs and also its building blocks that aims to implement real-world entities like inheritance, hiding, polymorphism, etc. in programming."
   },
 
   {
@@ -34,8 +40,8 @@ const items=[
 
   {
     id:6,
-    title:"Object Oriented Programming",
-    answer:"I have studied basic concept of OOPs and also its building blocks that aims to implement real-world entities like inheritance, hiding, polymorphism, etc. in programming. ."
+    title:"Computer Networks",
+    answer:"I have studied different layers of Networks and some common communication protocols."
   },
 
   {
@@ -44,23 +50,19 @@ const items=[
     answer:"I have worked on the backend part of my project using Nodejs, Expressjs and MongoDB and also further developing my skills in it."
   },
 
-  {
-    id:8,
-    title:"Computer Networks",
-    answer:"I have studied different layers of Networks and some common communication protocols."
-  },
+  
 
   {
-    id:9,
+    id:8,
     title:"Operating Systems",
     answer:"I have basic knowledge regarding different types of operating systems and their efficiency."
   },
 
-  // {
-  //   id:10,
-  //   title:"Database Management System",
-  //   answer:"I have good hands on working with HTML and CSS. I often use HTML & CSS to develop a good frontend part in my projects."
-  // },
+  {
+    id:9,
+    title:"Database Management System",
+    answer:"I have some basic level knowledge and overview of DBMS."
+  },
 ]
 
 export default function Skills() {

@@ -10,7 +10,7 @@
 
 .data{
   background: var(--color-bg-variant);
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 1rem;
   cursor: pointer;
   transition: var(--transition);
@@ -45,8 +45,34 @@
 }
 
 
-
-
+@media screen and (max-width: 1024px){
+  .skills_wrapper{
+   /* width:50%; */
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 0.5rem 0.5rem;
+   
+  }
+  .data{
+    margin-right: 0.2rem;
+    margin-bottom: 1.5rem;
+  }
+   
+ }
+ 
+ @media screen and (max-width:600px){
+   .container.project_container{
+     width: var(--container-width-sm);
+     margin-left: 3rem;
+     /* display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap:4rem; */
+   }
+ 
+   
+ }
+ 
+ 
 
 
 
