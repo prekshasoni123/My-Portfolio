@@ -1,13 +1,28 @@
 header{
-    height: 100vh;
+    height: 100%;
     padding-top: 2rem;
     overflow:hidden;
+    
+
+    /* margin-bottom: 4rem; */
 }
 
+.header__container .me{
+    width:20%;
+    height: 40%;
+    position: relative;
+    margin-top: 2rem;
+    
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+}
 .header__container{
     text-align: center;
     height: 100%;
     position: relative;
+    /* margin-bottom: -5rem; */
 }
 
 .cta{
@@ -21,22 +36,15 @@ header{
     margin-top: 1.5rem;
 }
 
-.me{
-    width: 180px;
-    height: 600px;
-    position: relative;
-    margin-top: 2rem;
-    
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 12rem 12rem 12rem 12rem;
-    overflow: hidden;
-    padding: 1px 5px 5px 0px;
-}
+
 
 @media screen and (max-width: 1024px){
     header{
         height:68vh;
+    }
+    .me{
+        height:50%;
+        width: 30%;
     }
 }
 
