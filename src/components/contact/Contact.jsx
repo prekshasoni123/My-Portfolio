@@ -2,25 +2,25 @@ import React from 'react'
 import './contact.css'
 import {AiOutlineMail} from 'react-icons/ai'
 import {BsWhatsapp} from 'react-icons/bs'
-import emailjs from 'emailjs-com'
+// import emailjs from 'emailjs-com'
 import {useRef} from 'react'
 
 
 export default function Contact() {
 
-  const form=useRef();
+  // const form=useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-    emailjs.sendForm('service_wgotv7b', 'template_mdjinnl', form.current, '3_p8v4g8Iqsk_ENVJ')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-      e.target.reset()
-  };
+  //   emailjs.sendForm('service_wgotv7b', 'template_mdjinnl', form.current, '3_p8v4g8Iqsk_ENVJ')
+  //     .then((result) => {
+  //         console.log(result.text);
+  //     }, (error) => {
+  //         console.log(error.text);
+  //     });
+  //     e.target.reset()
+  // };
   return (
     <section id='contact'>
     <br/>
@@ -41,7 +41,8 @@ export default function Contact() {
           <a href='https://api.whatsapp.com/send?phone+919313494954' target='_blank'>Send your message</a>
         </article>
       </div>
-      <form ref={form} onSubmit={sendEmail}>
+      {/* <form ref={form} onSubmit={sendEmail}> */}
+      <form action="https://formsubmit.co/divysoni2812@gmail.com" method="POST">
         <input type='text' name='name' placeholder='Enter your name' required/>
         <input type='email' name='email' placeholder='Enter your email' required/>
         <textarea name='message' rows="7" placeholder='Your message'></textarea>
