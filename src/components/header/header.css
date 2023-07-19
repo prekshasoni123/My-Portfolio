@@ -41,12 +41,12 @@ header{
 @media screen and (max-width: 1024px){
     header{
         height:100%;
-        margin-top: 2rem;
+        margin-top: 1.5rem;
     }
     .header__container .me{
         margin-top: 2.5rem;
         height:49%;
-        width: 50%;
+        width: 45%;
     }
 }
 
