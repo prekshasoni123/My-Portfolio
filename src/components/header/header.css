@@ -40,10 +40,10 @@ header{
 
 @media screen and (max-width: 1024px){
     header{
-        height:68vh;
+        height:100%;
     }
     .me{
-        height:80%;
+        height:55%;
         width: 50%;
     }
 }
