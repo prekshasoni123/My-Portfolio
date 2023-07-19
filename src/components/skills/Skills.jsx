@@ -58,11 +58,11 @@ const items=[
     answer:"I have basic knowledge regarding different types of operating systems and their efficiency."
   },
 
-  {
-    id:9,
-    title:"Database Management System",
-    answer:"I have some basic level knowledge and overview of DBMS."
-  },
+  // {
+  //   id:9,
+  //   title:"Database Management System",
+  //   answer:"I have some basic level knowledge and overview of DBMS."
+  // },
 ]
 
 export default function Skills() {
