@@ -12,7 +12,7 @@ const items=[
   {
     id:2,
     title:"C/C++",
-    answer:"I have good coding skills in C++ and I am practicing Data Structures and Algorithms on many of the coding platforms and further working to master in its concepts."
+    answer:"I have good coding skills in C++ and I am practicing Data Structures and Algorithms on many of the coding platforms and further working to master in its concepts. Solved 200+ questions on Leetcode."
   },
   {
     id:3,
