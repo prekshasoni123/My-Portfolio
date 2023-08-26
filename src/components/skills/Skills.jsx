@@ -40,23 +40,26 @@ const items=[
 
   {
     id:6,
-    title:"Computer Networks",
-    answer:"I have studied different layers of Networks and some common communication protocols."
+    title:"Operating Systems",
+    answer:"I have basic knowledge regarding different types of operating systems, scheduling algorithms, deadlock, memory allocation techniques."
   },
 
+  
   {
     id:7,
     title:"MERN STACK",
     answer:"I have worked on the backend part of my project using Nodejs, Expressjs and MongoDB and also further developing my skills in it."
   },
 
-  
-
   {
     id:8,
-    title:"Operating Systems",
-    answer:"I have basic knowledge regarding different types of operating systems and their efficiency."
+    title:"Database Management System",
+    answer:"I have basic knowledge regarding the models of DBMS, SQL and NoSQL databases and their properties."
   },
+
+  
+
+  
 
   // {
   //   id:9,
